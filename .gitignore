@@ -1,0 +1,140 @@
+# Git ignore patterns for AXIOM-Ω
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# Virtual environments
+virtualenv/
+pipenv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+*.iml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Data & vectors
+*.pkl
+*.pickle
+*.parquet
+*.hdf5
+*.db
+*.sqlite
+
+# Large data files
+data/vectors/
+data/logs/
+data/execution_traces/
+data/system_metrics/
+data/codebase_ast/
+
+# Vector DB
+qdrant_storage/
+vector_db_data/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+temp/
+tmp/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Secrets (do NOT commit)
+secrets/
+*.key
+*.pem
+credentials.json
+
+# Generated files
+*.generated.*
+
+# IDE cache
+.pylintrc
+.flake8
+
+# Node modules (if using Node.js components)
+node_modules/
+npm-debug.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Output matrices & models
+models/
+outputs/
+results/
+
+# Benchmarks
+benchmarks/results/
+benchmarks/timings.json
